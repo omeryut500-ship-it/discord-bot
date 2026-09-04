@@ -1,3 +1,8 @@
+const http = require('http');
+http.createServer((req, res) => {
+  res.write("Bot aktif!");
+  res.end();
+}).listen(process.env.PORT || 3000);
 const { Client, GatewayIntentBits } = require('discord.js');
 const { joinVoiceChannel } = require('@discordjs/voice');
 
@@ -24,4 +29,4 @@ client.on('ready', () => {
     }
 });
 
-client.login('MTU0NTM0MzY0MzQwNDA3OTE5NQ.G6zGys.KU-cY-fPjZ1PaokRF2i3jRRr2YS4UT2MukwAlY');
+client.login('MTU0NTM0MzY0MzQwNDA3OTE5NQ.GYrgkz._19CT0sEte8QXzVzof97hM1hXi0KyD1METRV2o');

@@ -29,4 +29,4 @@ client.on('ready', () => {
     }
 });
 
-client.login('MTU0NTM0MzY0MzQwNDA3OTE5NQ.GYrgkz._19CT0sEte8QXzVzof97hM1hXi0KyD1METRV2o');
+client.login(process.env.TOKEN);
